@@ -26,6 +26,16 @@ public class Ex03_List {
 		
 		System.out.println(arr.size());
 		
+		System.out.println(arr.contains("1231"));
+		
+		//System.out.println(arr.remove("123"));
+		System.out.println(arr.remove(1));
+		
+		System.out.println(arr);
+		System.out.println(arr.get(0));
+		
+		arr.clear();//ArrayList안 내용들을 전부 삭제
+		System.out.println("삭제 후 arr : " + arr);
 		
 	}
 }
